@@ -18,7 +18,7 @@ References:
 
 import numpy as np
 from scipy.optimize import minimize
-from typing import Tuple, List, Dict, Any
+from typing import Optional, Tuple, List, Dict, Any
 
 from ..utils.quantum_sim import (
     QuantumState, modularity_hamiltonian, pauli_string,
